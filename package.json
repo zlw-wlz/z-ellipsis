@@ -1,22 +1,24 @@
 {
   "name": "z-ellipsis",
-  "version": "0.20.4",
+  "version": "0.30.3",
   "author":"zlwapjj",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build:dist": "vue-tsc --noEmit && vite build --mode=dist",
+    "build:lib": "vue-tsc --noEmit && vite build --mode=lib",
     "serve": "vite preview"
   },
   "files": [
     "dist",
-    "types"
+    "types",
+    "package"
   ],
   "main": "./dist/z-ellipsis.umd.js",
   "module": "./dist/z-ellipsis.es.js",
   "dependencies": {
     "vue": "^3.0.5",
-    "z-ellipsis": "^0.20.4"
+    "z-ellipsis": "^0.30.2"
   },
   "devDependencies": {
     "@types/node": "^15.12.5",

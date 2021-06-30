@@ -1996,3 +1996,19 @@ z-ellipsis@^0.20.4:
   dependencies:
     vue "^3.0.5"
     z-ellipsis "^0.20.3"
+
+z-ellipsis@^0.30.1:
+  version "0.30.1"
+  resolved "https://registry.npmjs.org/z-ellipsis/-/z-ellipsis-0.30.1.tgz#d4f2788183c042e9a60d79a47d9307b2ae638d3a"
+  integrity sha512-1U7WPd1CUeWxfFub/syE1BC3w2/2p4fG0Gdz6BI6sX9o2lCxBUn0NV5e5jcS+ok1Oh6ufXiD4gm94tOn88YCRw==
+  dependencies:
+    vue "^3.0.5"
+    z-ellipsis "^0.20.4"
+
+z-ellipsis@^0.30.2:
+  version "0.30.2"
+  resolved "https://registry.npmjs.org/z-ellipsis/-/z-ellipsis-0.30.2.tgz#0a8001d57950d3b20a1a3b6ded1feb1b5c9da0a4"
+  integrity sha512-wR+ftsbCv41yyQtH0dFpholQoffVkM7ImlTts4Jdiea6tsDRfNLLzlMrv1UfeXU/n4hUF1fStoInLSmE/q/xOQ==
+  dependencies:
+    vue "^3.0.5"
+    z-ellipsis "^0.30.1"
